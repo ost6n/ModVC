@@ -1,8 +1,7 @@
 name: ModVC-Renew
 
 on:
-  schedule:
-    - cron: '17 8 */5 * *'  # 每5天执行一次
+
   workflow_dispatch:
 
 jobs:
